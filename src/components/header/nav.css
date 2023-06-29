@@ -37,12 +37,15 @@ nav{
     }
     .ham_btn{
         z-index: 1;
+        align-items: center;
     }
     .container{
         width: 0;
         position: absolute;
         background-color: white;
         right:0;
+        top: 0;
+        /* bottom: 0; */
         transition: width .4s ease-in-out;
         overflow: hidden;
         height: 100vh;
@@ -63,7 +66,7 @@ nav{
         display: none;
     }
     .hide{
-        right:0 ; 
+        right:-20px; 
         width: 80% ;
     }
     .logo{
@@ -71,6 +74,21 @@ nav{
         justify-content: space-between;
         width: 100%;
     }
+    .w{
+        width: 50px;
+        height: 30px;
+    }
+    .menu{
+        width: 50px;  
+        height: 25px;
+
+    }
+    .cross{
+        width: 30px;
+        height: 30px;
+        
+    }
+   
     
 }
 
